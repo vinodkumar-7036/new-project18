@@ -1,38 +1,114 @@
-.App {
+.data-form {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+
+  width: 300px;
+  margin: auto;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.actions-data .edit-icon,
+.delete-icon {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.success-message {
+  color: #228b22;
+  margin-top: 10px;
+}
+.login-container {
+  max-width: 300px;
+  margin: auto;
+  padding-top: 50px;
+}
+.input-container {
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 16px;
+}
+.button-container {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-container button {
+  padding: 10px;
+  background-color: #228b22;
+  cursor: pointer;
+  text-align: center;
+}
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+.input-error {
+  margin-top: 3px;
+  color: red;
+}
+.loader {
+  margin-top: 20px;
+}
+.signup-container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signup-text {
+  text-decoration: underline;
+  color: #228b22;
+  margin: 5px;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.popup-content {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+.popup-container {
+  position: absolute;
+  top: 15%;
+  left: 65%;
+  background-color: white;
+  padding: 8px;
+}
+.pagination-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 20px;
 }
